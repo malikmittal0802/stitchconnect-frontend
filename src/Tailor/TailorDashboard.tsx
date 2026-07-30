@@ -20,7 +20,7 @@ const TailorDashboard = () => {
     const [otpStep, setOtpStep] = useState(1);
     const [resetToken, setResetToken] = useState("");
     const [searchTerm, setSearchTerm] = useState('');
-    
+
     // State for Mobile Sidebar toggle
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -178,9 +178,9 @@ const TailorDashboard = () => {
 
             {/* MOBILE BACKDROP OVERLAY */}
             {mobileMenuOpen && (
-                <div 
+                <div
                     onClick={() => setMobileMenuOpen(false)}
-                    className="lg:hidden fixed inset-0 bg-black/40 backdrop-blur-sm z-40" 
+                    className="lg:hidden fixed inset-0 bg-black/40 backdrop-blur-sm z-40"
                 />
             )}
 
@@ -287,7 +287,12 @@ const TailorDashboard = () => {
                             </div>
                             <div className="p-8 border border-dashed border-[#E5E1DA] flex flex-col items-center justify-center text-center space-y-4">
                                 <h3 className="text-3xl font-['Playfair_Display'] italic">Invite Potential Clients</h3>
-                                <button onClick={() => { navigator.clipboard.writeText(`http://localhost:5173/artisan/${profile._id}`); toast.success("Registry link copied"); }}
+                                <button
+                                    onClick={() => {
+                                        const link = `${window.location.origin}/artisan/${profile._id}`;
+                                        navigator.clipboard.writeText(link);
+                                        toast.success("Registry link copied to clipboard");
+                                    }}
                                     className="px-10 py-4 border border-[#2C2C2C] text-[9px] uppercase tracking-widest font-black hover:bg-[#2C2C2C] hover:text-white transition-all">
                                     Copy Showroom Link
                                 </button>
