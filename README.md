@@ -1,29 +1,19 @@
-# 🪡 StitchConnect
+<h1 align="center">🪡 StitchConnect</h1>
 
 <p align="center">
-  <h1 align="center">🪡 StitchConnect</h1>
-
-  <p align="center">
-    A luxury-inspired <b>MERN Stack</b> platform connecting customers with skilled local tailors through an elegant digital marketplace.
-  </p>
-
-  <p align="center">
-    Built with <b>React • TypeScript • Express • MongoDB</b>
-  </p>
+  <strong>A luxury-inspired MERN Stack platform connecting customers with skilled local tailors through an elegant digital marketplace.</strong>
 </p>
 
 <p align="center">
+  Built with <strong>React • TypeScript • Express • MongoDB</strong>
+</p>
 
-<img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Frontend-React%20+%20Vite-61DAFB?style=for-the-badge&logo=react">
-
-<img src="https://img.shields.io/badge/Backend-Node.js%20+%20Express-339933?style=for-the-badge&logo=nodedotjs">
-
-<img src="https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb">
-
-<img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript">
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Frontend-React%20+%20Vite-61DAFB?style=for-the-badge&logo=react" alt="React">
+  <img src="https://img.shields.io/badge/Backend-Node.js%20+%20Express-339933?style=for-the-badge&logo=nodedotjs" alt="Node.js">
+  <img src="https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript">
 </p>
 
 ---
@@ -39,18 +29,18 @@
 # 📸 Application Preview
 
 <p align="center">
-  <img src="screenshots/home.png" width="48%">
-  <img src="screenshots/customer-dashboard.png" width="48%">
+  <img src="screenshots/home.png" width="48%" alt="Home Page">
+  <img src="screenshots/customer-dashboard.png" width="48%" alt="Customer Dashboard">
 </p>
 
 <p align="center">
-  <img src="screenshots/tailor-dashboard.png" width="48%">
-  <img src="screenshots/tailor-discovery.png" width="48%">
+  <img src="screenshots/tailor-dashboard.png" width="48%" alt="Tailor Dashboard">
+  <img src="screenshots/tailor-discovery.png" width="48%" alt="Tailor Discovery">
 </p>
 
 <p align="center">
-  <img src="screenshots/lookbook.png" width="48%">
-  <img src="screenshots/tailor-profile.png" width="48%">
+  <img src="screenshots/lookbook.png" width="48%" alt="Tailor Lookbook">
+  <img src="screenshots/tailor-profile.png" width="48%" alt="Tailor Profile">
 </p>
 
 ---
@@ -59,72 +49,73 @@
 
 - 🎨 Luxury-inspired responsive user interface
 - 🧵 Digital Lookbook for showcasing tailoring work
-- 🔍 Smart tailor discovery with search & filtering
+- 🔍 Smart tailor discovery with search and filtering
 - ⭐ Customer reviews and rating system
 - ☁️ Cloudinary-powered image uploads
 - 📧 Secure Email OTP verification
 - 🔐 JWT-based authentication and authorization
-- 📱 Optimized for desktop and mobile devices
+- 📱 Fully responsive across desktop and mobile devices
 - ⚡ Fast React + Vite frontend
-- ☁️ Deployed using Vercel and Render
-
----
+- 🚀 Deployed using Vercel and Render
 
 # ✨ Features
 
-## 👤 Customer
+## 👤 Customer Features
 
-- Register & Login securely
-- Browse local tailors
-- Filter tailors based on preferences
-- View tailor profiles
-- Explore tailor portfolios
-- Read customer reviews
-- Submit ratings & reviews
-- Manage personal profile
-
----
-
-## 🧵 Tailor
-
-- Secure authentication
-- Personalized dashboard
-- Manage tailor profile
-- Upload portfolio images
-- Build a digital lookbook
-- Showcase completed work
-- Receive customer reviews
-- Manage published designs
+- 🔐 Secure registration and login
+- 🔍 Discover skilled local tailors
+- 🎯 Filter tailors based on preferences
+- 👔 View detailed tailor profiles
+- 🧵 Explore tailor portfolios and lookbooks
+- ⭐ Read customer ratings and reviews
+- ✍️ Submit ratings and reviews
+- 👤 Manage personal profile information
 
 ---
 
-## 🔒 Authentication
+## 🧵 Tailor Features
 
-- JWT Authentication
+- 🔐 Secure authentication
+- 📊 Personalized dashboard
+- 👤 Manage tailor profile
+- ☁️ Upload portfolio images using Cloudinary
+- 🧵 Build a digital lookbook
+- 🖼️ Showcase completed designs
+- ⭐ Receive customer reviews and ratings
+- ✏️ Manage published portfolio items
+
+---
+
+## 🔒 Authentication & Security
+
+- JWT-based Authentication
 - Email OTP Verification
 - Protected Routes
 - Secure Session Management
+- Password Hashing
+- Environment Variable Protection
 
 ---
 
-## 📱 Responsive Design
+## 📱 User Experience
 
+- Responsive Design
+- Modern Luxury-inspired UI
 - Mobile Friendly
-- Modern UI
-- Responsive Layout
-- Smooth User Experience
+- Smooth Navigation
+- Fast Loading Interface
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
 ## Frontend
 
 - React
 - TypeScript
 - Vite
-- Axios
 - React Router
+- Axios
 - CSS
 
 ### Deployment
@@ -148,80 +139,67 @@
 - Render
 
 ---
+
 # 🏗️ System Architecture
 
 ```text
-                        ┌──────────────────────┐
-                        │     Customer /       │
-                        │       Tailor         │
-                        └──────────┬───────────┘
-                                   │
-                            HTTP Requests
-                                   │
-                                   ▼
-                    ┌──────────────────────────┐
-                    │   React + TypeScript     │
-                    │      Vite Frontend       │
-                    └──────────┬───────────────┘
-                               │
-                         Axios API Calls
-                               │
-                               ▼
-                    ┌──────────────────────────┐
-                    │   Express.js Backend     │
-                    │      RESTful APIs        │
-                    └───────┬────────┬─────────┘
-                            │        │
-              JWT Auth      │        │ Image Uploads
-                            │        │
-                            ▼        ▼
-                   MongoDB Atlas   Cloudinary
-                            │
+                         ┌──────────────────────┐
+                         │   Customer / Tailor  │
+                         └──────────┬───────────┘
+                                    │
+                              HTTP Requests
+                                    │
+                                    ▼
+                  ┌─────────────────────────────┐
+                  │ React + TypeScript + Vite   │
+                  │        Frontend             │
+                  └─────────────┬───────────────┘
+                                │
+                           Axios API Calls
+                                │
+                                ▼
+                  ┌─────────────────────────────┐
+                  │ Express.js REST API         │
+                  │        Backend              │
+                  └─────────┬─────────┬─────────┘
+                            │         │
+                            │         │
+                       JWT Auth   Image Uploads
+                            │         │
+                            ▼         ▼
+                    MongoDB Atlas  Cloudinary
                             │
                             ▼
-                      User & Tailor Data
+                  Customer & Tailor Data
 
-                    Email OTP Verification
-                           ▲
-                           │
-                    Gmail + Nodemailer
+                   Email OTP Verification
+                            ▲
+                            │
+                     Gmail + Nodemailer
 ```
-
----
-
 # 📁 Repository Structure
 
-```text
-stitchconnect/
+This repository contains the **frontend** of StitchConnect.  
+The backend source code is available in the separate repository linked above.
 
-├── frontend/
-│   ├── public/
-│   ├── screenshots/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── Components/
-│   │   ├── customer/
-│   │   ├── Tailor/
-│   │   ├── api.ts
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│   ├── .env
-│   ├── .gitignore
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── tsconfig.json
-│   └── vite.config.ts
-│
-└── backend/
-    ├── config/
-    ├── controllers/
-    ├── models/
-    ├── routers/
-    ├── .env
-    ├── .gitignore
-    ├── package.json
-    ├── package-lock.json
-    └── server.js
+```text
+.
+├── public/
+├── screenshots/
+├── src/
+│   ├── assets/
+│   ├── Components/
+│   ├── customer/
+│   ├── Tailor/
+│   ├── api.ts
+│   ├── App.tsx
+│   └── main.tsx
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── vite.config.ts
 ```
 
 ---
@@ -230,14 +208,14 @@ stitchconnect/
 
 ## Prerequisites
 
-Before running the project locally, make sure you have:
+Before running the project locally, ensure you have:
 
 - Node.js (v18 or later)
 - npm
 - Git
-- MongoDB Atlas account (or local MongoDB)
+- MongoDB Atlas account (or a local MongoDB instance)
 - Cloudinary account
-- Gmail account with App Password enabled
+- Gmail account with an App Password enabled
 
 ---
 
@@ -251,8 +229,6 @@ git clone https://github.com/malikmittal0802/stitchconnect-frontend.git
 cd stitchconnect-frontend
 ```
 
----
-
 ### Backend
 
 ```bash
@@ -265,7 +241,7 @@ cd stitchconnect-backend
 
 # 📦 Install Dependencies
 
-### Frontend
+Run the following command inside **both repositories**:
 
 ```bash
 npm install
@@ -273,22 +249,14 @@ npm install
 
 ---
 
-### Backend
+# ▶️ Running the Application
+
+Open **two terminal windows**.
+
+## Terminal 1 — Backend
 
 ```bash
-npm install
-```
-
----
-
-# ▶️ Running the Project
-
-Open **two terminals**.
-
-### Terminal 1 (Backend)
-
-```bash
-cd backend
+cd stitchconnect-backend
 
 npm start
 ```
@@ -299,42 +267,45 @@ or
 npm run dev
 ```
 
-Backend will start at
+Backend will run on:
 
-```
+```text
 http://localhost:3000
 ```
 
 ---
 
-### Terminal 2 (Frontend)
+## Terminal 2 — Frontend
 
 ```bash
-cd frontend
+cd stitchconnect-frontend
 
 npm run dev
 ```
 
-Frontend will start at
+Frontend will run on:
 
-```
+```text
 http://localhost:5173
 ```
 
 ---
 
-After both servers are running, open your browser and visit:
+Open your browser and visit:
 
-```
+```text
 http://localhost:5173
 ```
 
 You can now explore StitchConnect locally.
+
+---
+
 # ⚙️ Environment Variables
 
 ## Frontend (`.env`)
 
-Create a `.env` file in the **frontend** directory.
+Create a `.env` file in the frontend directory.
 
 ```env
 VITE_API_BASE_URL=http://localhost:3000
@@ -350,57 +321,51 @@ VITE_API_BASE_URL=https://stitchconnect-api.onrender.com
 
 ## Backend (`.env`)
 
-Create a `.env` file in the **backend** directory.
+Create a `.env` file in the backend directory.
 
 ```env
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-
 CLOUDINARY_API_KEY=your_cloudinary_api_key
-
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 MONGO_URL=your_mongodb_connection_string
 
 GMAIL=your_email@gmail.com
-
 GMAIL_CODE=your_gmail_app_password
 
 PORT=3000
 
 JWT_SECRET=your_jwt_secret
-
 OTP_SECRET=your_otp_secret
 ```
 
 > **Important**
 >
 > - Never commit your `.env` file to GitHub.
-> - Use a **MongoDB Atlas** connection string for `MONGO_URL`.
-> - `GMAIL_CODE` should be a **Google App Password**, not your Gmail password.
-> - Keep all secret keys private.
+> - Use a MongoDB Atlas connection string for `MONGO_URL`.
+> - `GMAIL_CODE` should be a Google App Password, **not** your Gmail password.
+> - Keep all secret keys and credentials private.
 
 ---
 
 # 🔐 Environment Variables Reference
 
 | Variable | Description |
-|-----------|-------------|
-| `VITE_API_BASE_URL` | Backend API URL |
+|----------|-------------|
+| `VITE_API_BASE_URL` | Backend API base URL |
 | `MONGO_URL` | MongoDB Atlas connection string |
 | `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud name |
 | `CLOUDINARY_API_KEY` | Cloudinary API key |
 | `CLOUDINARY_API_SECRET` | Cloudinary API secret |
-| `GMAIL` | Gmail address used to send OTP emails |
+| `GMAIL` | Gmail address used for sending OTP emails |
 | `GMAIL_CODE` | Gmail App Password |
 | `PORT` | Backend server port |
-| `JWT_SECRET` | Secret key for JWT authentication |
-| `OTP_SECRET` | Secret key for OTP generation & verification |
-
----
+| `JWT_SECRET` | Secret key used for JWT authentication |
+| `OTP_SECRET` | Secret key used for OTP generation and verification |
 
 # 🌍 Deployment
 
-## 🚀 Frontend Deployment (Vercel)
+## 🚀 Frontend (Vercel)
 
 The frontend is deployed on **Vercel**.
 
@@ -424,9 +389,9 @@ VITE_API_BASE_URL=https://stitchconnect-api.onrender.com
 
 ---
 
-## 🚀 Backend Deployment (Render)
+## 🚀 Backend API (Render)
 
-The backend is deployed on **Render**.
+The backend REST API is deployed on **Render**.
 
 ### Build Command
 
@@ -444,21 +409,17 @@ npm start
 
 ```env
 CLOUDINARY_CLOUD_NAME=
-
 CLOUDINARY_API_KEY=
-
 CLOUDINARY_API_SECRET=
 
 MONGO_URL=
 
 GMAIL=
-
 GMAIL_CODE=
 
 PORT=3000
 
 JWT_SECRET=
-
 OTP_SECRET=
 ```
 
@@ -466,19 +427,19 @@ OTP_SECRET=
 
 # 🔒 Security Features
 
-StitchConnect follows several security best practices:
+StitchConnect follows several security best practices to protect user data and application resources.
 
 - 🔐 JWT-based authentication
 - 📧 Email OTP verification
 - 🔑 Protected API routes
 - ☁️ Secure Cloudinary image storage
-- 🚫 Sensitive credentials stored using environment variables
-- 🔒 Passwords securely hashed before storage
-- 🌐 CORS-enabled backend for controlled frontend communication
+- 🔒 Password hashing before storage
+- 🚫 Sensitive credentials managed using environment variables
+- 🌐 CORS-enabled backend for secure frontend communication
 
 ---
 
-# 📊 Project Highlights
+# 📊 Feature Completion
 
 | Feature | Status |
 |----------|:------:|
@@ -487,11 +448,43 @@ StitchConnect follows several security best practices:
 | Customer Dashboard | ✅ |
 | Tailor Dashboard | ✅ |
 | Tailor Discovery | ✅ |
+| Tailor Profile | ✅ |
+| Customer Profile | ✅ |
 | Tailor Lookbook | ✅ |
 | Customer Reviews | ✅ |
 | Write Reviews | ✅ |
-| Profile Management | ✅ |
-| Cloudinary Uploads | ✅ |
+| Cloudinary Image Uploads | ✅ |
 | Email OTP Verification | ✅ |
-| Responsive UI | ✅ |
+| Responsive User Interface | ✅ |
 | Live Deployment | ✅ |
+
+---
+
+# 🚀 Future Enhancements
+
+- 💬 Real-time messaging between customers and tailors
+- 📅 Appointment scheduling system
+- 💳 Online payment integration
+- ❤️ Wishlist / Favorite Tailors
+- 🔔 Real-time notifications
+- 📈 Tailor analytics dashboard
+- 🌍 Multi-language support
+- 🛡️ Admin dashboard for platform management
+
+---
+
+# 👨‍💻 Author
+
+## Malik Mittal
+
+- GitHub: https://github.com/malikmittal0802
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project helpful, consider giving it a star!
+
+Made with ❤️ using **React • TypeScript • Express • MongoDB**
+
+</div>
