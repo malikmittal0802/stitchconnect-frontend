@@ -28,15 +28,11 @@
 
 ---
 
-# 🌐 Live Demo
+# 🔗 Project Links
 
-### Frontend
-
-https://stitchconnect.vercel.app
-
-### Backend API
-
-https://stitchconnect-api.onrender.com
+- 🌐 **Live Frontend:** https://stitchconnect-frontend.vercel.app
+- ⚙️ **Live Backend API:** https://stitchconnect-api.onrender.com
+- 💻 **Backend Repository:** https://github.com/malikmittal0802/stitchconnect-backend
 
 ---
 
