@@ -21,8 +21,8 @@ const TailorProfile = () => {
   const [isFirstTime, setIsFirstTime] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [isScanning, setIsScanning] = useState(false);
-  const [isRegistered, setIsRegistered] = useState(false);
-  const [registeredDoc, setRegisteredDoc] = useState<any>(null);
+  const [_isRegistered, setIsRegistered] = useState(false);
+  const [_registeredDoc, setRegisteredDoc] = useState<any>(null);
   const [selectedfile, setselectedfile] = useState<File | null>(null);
 
   const profileInputRef = useRef<HTMLInputElement>(null);

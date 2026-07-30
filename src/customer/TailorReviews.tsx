@@ -38,7 +38,7 @@ const categorizedGarments = {
 const ReviewSearch = ({ autoPhone }: { autoPhone?: string }) => {
   const [phone, setPhone] = useState("");
   const [foundTailor, setFoundTailor] = useState<any>(null);
-  const [hasSearched, setHasSearched] = useState(false);
+  const [_hasSearched, setHasSearched] = useState(false);
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
   const [comment, setComment] = useState("");

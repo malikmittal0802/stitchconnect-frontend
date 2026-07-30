@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { useLocation, useNavigate, useParams } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Star, ChevronLeft, Scissors } from 'lucide-react';
 import toast from 'react-hot-toast';
 import API from '../api';
 
 const LeaveReview = () => {
-    const { id } = useParams();
     const location = useLocation();
     const navigate = useNavigate();
     const { tailorName, tailorEmail } = location.state || {};
